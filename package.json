@@ -2,6 +2,7 @@
   "name": "next-template",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
@@ -9,9 +10,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@payloadcms/db-mongodb": "^3.0.1",
+    "@payloadcms/next": "^3.0.1",
+    "@payloadcms/richtext-lexical": "^3.0.1",
+    "graphql": "^16.9.0",
     "next": "15.0.3",
+    "payload": "^3.0.1",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
